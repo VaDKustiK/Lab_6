@@ -58,7 +58,7 @@ class Program
     static int Random()
     {
         Random r = new Random();
-        return r.Next(0, 9);
+        return r.Next(0, 7);
     }
 
     static string[,] Matrix(string[] s)
