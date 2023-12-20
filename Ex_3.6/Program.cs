@@ -13,7 +13,7 @@ class Program
     private static void Main()
     {
         int i, j;
-        Answer[] answers = new Answer[500];
+        Answer[] answers = new Answer[300];
         for (i = 0; i < answers.Length; i++)
         {
             answers[i].Answer1 = Question1(Random());
